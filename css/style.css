@@ -1,0 +1,280 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header,main,article,aside,footer,section
+{
+  display: block;
+}
+header
+{
+    background-color:silver;
+    height: 80px;
+}
+
+.logo
+{
+    margin-top:10px;
+    margin-left: 45%;
+}
+
+body
+{
+    min-height: 100% !important;
+    height: 100%;
+    width: 100%;
+    min-width: 100% !important;
+    overflow: auto;
+    background-repeat: repeat-x;
+    background-color:wheat;
+}
+
+.main-nav
+{
+    list-style: none;
+    list-style-position: initial;
+    -webkit-text-fill-color: #000000;
+}
+.main-nav a:hover
+{
+    color: blue;
+    height: 0%;
+}
+.main-nav li
+{
+    position: relative;
+    display: inline;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: normal; 
+    text-transform: uppercase;
+}
+
+a
+{
+    text-decoration: none;
+    color: #000000; 
+    font-size: 30px;
+    transition-duration: 0.7s;
+}
+
+#wrapper
+{
+    margin:0 auto;
+    width:1000px;
+    background-color:skyblue;
+}
+.clear 
+{
+    clear: both;
+}
+
+footer
+{
+    background-color:black;
+    width: 100%;
+    height: 50px;
+    clear: both;
+    position: relative;
+}
+/*.......index......*/
+#index .main-nav li
+{
+    display:block;
+    padding:12px;
+
+}
+
+#index aside
+{
+    height: 700px;
+    width: 150px;
+    background-color: tan;
+    margin-left:850px;
+}
+
+#index .boxes
+{
+    display: flex;
+    position: relative;
+}
+
+#index .box1
+{
+    position: absolute;
+    height:301px;
+    width: 180px;
+    margin-left:24px;
+    margin-top: 60px;
+    border: 1px solid black;
+}
+#index .box2
+{
+    position: absolute;
+    height:287px;
+    width: 413px;
+    margin-top: 30px;
+    margin-left:400px;
+    border: 1px solid black;
+}
+#index .box3
+{
+    position: absolute;
+    height:301px;
+    width: 180px;
+    margin-top: 380px;
+    margin-left:300px;
+    border: 1px solid black;
+}
+
+
+
+
+/*...........layout2........*/
+
+
+#layout2 main
+{
+    height: 700px;
+}
+#layout2 aside
+{
+    position: absolute;
+    display: block;
+    border-right: 2px;
+    border-style: solid;
+    border-color: black;
+    float: right;
+    height: 700px;
+    margin-left:200px;
+}
+#layout2 nav
+{
+    height: 200px;
+    background-color: tan;
+
+}
+
+
+#layout2 .main-nav li
+{
+    padding-right: 10px;
+    left: 350px;
+    top:70px;
+}
+#layout2 .flex-container
+{
+    position: relative;
+    flex-flow: row wrap;
+    justify-content: space-around; 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+  
+#layout2 .flex-item1
+{
+    position: absolute;
+    border: 1px solid black;
+    width: 150px;
+    height: 90px;
+    float: left;
+    margin-top:80px;
+    margin-left:790px;
+}
+
+#layout2 .flex-item2
+{
+    position: absolute;
+    border: 1px solid black;
+    width: 150px;
+    height: 90px;
+    float: left;
+    margin-top:80px;
+    left:620px;
+}
+#layout2 .flex-item3
+{
+    position: absolute;
+    border: 1px solid black;
+    width: 290px;
+    height: 100px;
+    margin-top:490px;
+    float: left;
+    margin-left: 230px;
+}
+#layout2 .flex-item4
+{
+    position: absolute;
+    border: 1px solid black;
+    width: 400px;
+    height:250px;
+    margin-top: 340px;
+    float: left;
+    margin-left: 540px;
+}
+
+/*......layout3.....*/
+
+#layout3 main
+{
+    height: 700px;
+}
+
+#layout3 nav
+{
+    height: 200px;
+    background-color: tan;
+
+}
+#layout3 .main-nav li
+{
+    padding-right: 10px;
+    left: 350px;
+    top:70px;
+}
+
+#layout3 article
+{
+    border: 1px solid black;
+    height: 230px;
+    width: 130px;
+    margin-left:60px;
+    margin-top:40px;
+    float: left;
+
+
+}
+#layout3 #buttonColor
+{
+    color:blue;
+    background-color: burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    margin-left:1px;
+}
+#layout3 #buttonColor:hover
+{
+    border: 2px solid blue;
+}
+#layout3 #buttonMain
+{
+    margin-top: 130px;
+    color:white;
+    background-color: burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 5px;
+}
+#layout3 #buttonMain:hover
+{
+    border: 2px solid white;
+}
+
+#layout3 .img
+{
+    position: absolute;
+}
